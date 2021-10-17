@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="External">
+      <UniqueIdentifier>{57f8ed54-83fb-44ff-a9ae-c89e99a4086b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="External\stb">
+      <UniqueIdentifier>{136347a9-d74a-4c60-88f8-a952883f8373}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\FrameBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\GP_ONE.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sprite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="External\Clock.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="External\ImageManager.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+    <ClCompile Include="External\SceneLoader.cpp">
+      <Filter>External</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\FrameBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\GP_ONE.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Sprite.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SpriteInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="External\Clock.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\ImageManager.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\SceneLoader.h">
+      <Filter>External</Filter>
+    </ClInclude>
+    <ClInclude Include="External\stb\stb_image.h">
+      <Filter>External\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="External\stb\stb_image_write.h">
+      <Filter>External\stb</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Scenes\Render\scene_0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Scenes\Render\scene_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Scenes\Render\scene_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Scenes\Render\scene_3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Scenes\Render\scene_4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\black_circle_16.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\black_frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\car\car_0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\car\car_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\car\car_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat0_0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat0_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat0_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat0_3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat0_4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat1_0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat1_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat1_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat1_3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat1_4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat2_0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat2_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat2_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat2_3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat2_4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat3_0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat3_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat3_2.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat3_3.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat3_4.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\cat\cat_full.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\checker_board_64.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\rat\rat_0.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\rat\rat_1.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\road_tile.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\white_circle_8.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Sprites\white_frame.png">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Scenes\scene_0.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Scenes\scene_1.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Scenes\scene_2.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Scenes\scene_3.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="Scenes\scene_4.txt">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>
