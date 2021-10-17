@@ -44,6 +44,10 @@ void GP_ONE::drawSpriteInstances(const SpriteInstance *instances, uint16_t insta
 				uint16_t fbc = frameBuffer[fb_index_offset];
 				uint16_t spc = spriteMemory[ind].color[sp_index] >> start_in_tile_x;
 				uint16_t a = spriteMemory[ind].alpha[sp_index] >> start_in_tile_x;
+				if (start_in_tile_x & sp_index) {
+					spc |= spriteMemory[ind].color[sp_index - 1u] << (FRAMEBUFFER_TILE_W - start_in_tile_x);
+					a |= spriteMemory[ind].alpha[sp_index - 1u] << (FRAMEBUFFER_TILE_W - start_in_tile_x);
+				}
 				frameBuffer[fb_index_offset] = (spc & a) | (fbc & ~a);
 				//frameBuffer[fb_index_offset] = spc;
 			}
