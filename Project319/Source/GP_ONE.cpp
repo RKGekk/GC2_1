@@ -30,7 +30,7 @@ void GP_ONE::drawSpriteInstances(const SpriteInstance *instances, uint16_t insta
 		uint16_t start_tile_x = x >> FRAMEBUFFER_PX_PER_TILE_POWER;
 		//uint16_t start_tile_x = dvu(x, FRAMEBUFFER_PX_PER_TILE_POWER);
 		//uint16_t start_in_tile_x = x & (FRAMEBUFFER_PX_PER_TILE_POWER - 1);
-		uint16_t start_in_tile_x = x - start_tile_x * FRAMEBUFFER_TILE_W;
+		uint16_t start_in_tile_x = x - (start_tile_x << FRAMEBUFFER_PX_PER_TILE_POWER);
 		uint16_t fb_start_index = (y << FRAMEBUFFER_TILES_X_POWER) + start_tile_x;
 
 		if (start_in_tile_x) {
